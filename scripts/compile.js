@@ -9,8 +9,6 @@ const { DEFAULT_TOKEN_LIST, COMMON_BASES } = require(path.join(
   "index"
 ));
 
-console.log("DEFAULT_TOKEN_LIST", DEFAULT_TOKEN_LIST);
-
 const content = `const DEFAULT_TOKEN_LIST = ${JSON.stringify(
   DEFAULT_TOKEN_LIST
 )};const COMMON_BASES=${JSON.stringify(COMMON_BASES)}\nmodule.exports = {
