@@ -1,0 +1,21 @@
+{
+  "name": "default-token-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Globiance/default-token-list.git"
+  },
+  "keywords": [],
+  "author": "Rudresh Solanki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Globiance/default-token-list/issues"
+  },
+  "homepage": "https://github.com/Globiance/default-token-list#readme",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
