@@ -1,12 +1,16 @@
 {
-  "name": "default-token-list",
+  "name": "@globiance/default-token-list",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Globiance/default-token-list.git"
+  },
+  "scripts": {
+    "compile": "node scripts/compile.js"
   },
   "keywords": [],
   "author": "Rudresh Solanki",
