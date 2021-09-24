@@ -60,7 +60,19 @@ const DEFAULT_TOKEN_LIST = [
     logo: getAssetLogo("wxdc"),
     name: "Wrapped XDC",
     symbol: "WXDC",
-    address: "",
+    address: "0x6A67DE9634A30901E11fCC0C9A23b9A11b84a264",
+  },
+  {
+    logo: getAssetLogo("default"),
+    name: "Test Token A",
+    symbol: "TKNA",
+    address: "0xB2f380Fe2AbBF248D335d67D15Da67b0c6EC8060",
+  },
+  {
+    logo: getAssetLogo("default"),
+    name: "Test Token B",
+    symbol: "TKNB",
+    address: "0x1A0712E03A402459a4B3AC36C5B3ED0F19582c13",
   },
 ];
 
