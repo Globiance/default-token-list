@@ -3,6 +3,7 @@ export interface Token {
   name: string;
   symbol: string;
   address: string;
+  decimals: number;
 }
 
 export const DEFAULT_TOKEN_LIST: Array<Token>
