@@ -19,7 +19,7 @@ const DEFAULT_TOKEN_LIST = [
     logo: getAssetLogo("xdc"),
     name: "XinFin Network",
     symbol: "XDC",
-    address: "",
+    address: "0x6A67DE9634A30901E11fCC0C9A23b9A11b84a264",
     decimals: 18
   },
   {
@@ -92,14 +92,14 @@ const COMMON_BASES = [
     logo: getAssetLogo("xdc"),
     name: "XinFin Network",
     symbol: "XDC",
-    address: "",
+    address: "0x6A67DE9634A30901E11fCC0C9A23b9A11b84a264",
     decimals: 18
   },
   {
     logo: getAssetLogo("wxdc"),
     name: "Wrapped XDC",
     symbol: "WXDC",
-    address: "",
+    address: "0x6A67DE9634A30901E11fCC0C9A23b9A11b84a264",
     decimals: 18
   },
   {
