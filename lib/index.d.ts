@@ -9,3 +9,11 @@ export interface Token {
 export const DEFAULT_TOKEN_LIST: Array<Token>
 
 export const COMMON_BASES: Array<Token>
+
+export interface Pool {
+  first: Token;
+  second: Token;
+  address: string;
+}
+
+export const DEFUALT_POOL_LIST: Array<Pool>

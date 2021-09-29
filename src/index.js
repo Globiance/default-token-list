@@ -128,7 +128,28 @@ const COMMON_BASES = [
   },
 ];
 
+const DEFUALT_POOL_LIST = [
+  {
+    first: {
+      logo: getAssetLogo("default"),
+      name: "Test Token A",
+      symbol: "TKNA",
+      address: "0xB2f380Fe2AbBF248D335d67D15Da67b0c6EC8060",
+      decimals: 18,
+    },
+    second: {
+      logo: getAssetLogo("default"),
+      name: "Test Token B",
+      symbol: "TKNB",
+      address: "0x1A0712E03A402459a4B3AC36C5B3ED0F19582c13",
+      decimals: 18,
+    },
+    address: "0xe840DE66bC660198704cc39f5B2692f684312429",
+  },
+];
+
 module.exports = {
   DEFAULT_TOKEN_LIST,
   COMMON_BASES,
+  DEFUALT_POOL_LIST
 };
