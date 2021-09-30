@@ -128,7 +128,7 @@ const COMMON_BASES = [
   },
 ];
 
-const DEFUALT_POOL_LIST = [
+const DEFAULT_POOL_LIST = [
   {
     first: {
       logo: getAssetLogo("default"),
@@ -151,5 +151,5 @@ const DEFUALT_POOL_LIST = [
 module.exports = {
   DEFAULT_TOKEN_LIST,
   COMMON_BASES,
-  DEFUALT_POOL_LIST
+  DEFAULT_POOL_LIST
 };
