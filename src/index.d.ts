@@ -16,4 +16,4 @@ export interface Pool {
   address: string;
 }
 
-export const DEFUALT_POOL_LIST: Array<Pool>
+export const DEFAULT_POOL_LIST: Array<Pool>
