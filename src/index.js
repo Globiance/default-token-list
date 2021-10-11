@@ -114,7 +114,76 @@ const COMMON_BASES = [
   },
 ];
 
-const DEFAULT_POOL_LIST = [];
+const DEFAULT_POOL_LIST = [
+  {
+    first: {
+      logo: getAssetLogo("gbex"),
+      name: "Globiance Network",
+      symbol: "GBEX",
+      address: "xdc2049552f4f55b8af48c86ed9866a66e7d2bcd0fc",
+      decimals: 18,
+    },
+    second: {
+      logo: getAssetLogo("xdc"),
+      name: "XinFin Network",
+      symbol: "XDC",
+      address: "xdcc039850F937C623024DA66D6dF370022E6F16e30",
+      decimals: 18,
+    },
+    address: "xdc1aF38719EdEFE7D2aE5923198CCeea821968278F",
+  },
+  {
+    first: {
+      logo: getAssetLogo("gbex"),
+      name: "Globiance Network",
+      symbol: "GBEX",
+      address: "xdc2049552f4f55b8af48c86ed9866a66e7d2bcd0fc",
+      decimals: 18,
+    },
+    second: {
+      logo: getAssetLogo("eurg"),
+      name: "Euro Stablecoin",
+      symbol: "EURG",
+      address: "xdcb128a44f005cbe7ddaeb1860c16821842895ec7a",
+      decimals: 18,
+    },
+    address: "xdc5847b719d039F53b464e7B09d71eb5DB0a766deF",
+  },
+  {
+    first: {
+      logo: getAssetLogo("srx"),
+      name: "StorX Network",
+      symbol: "SRX",
+      address: "xdc55e574e7d0256ff50f86ee8cd90e4a8e22aa1f85",
+      decimals: 18,
+    },
+    second: {
+      logo: getAssetLogo("xdc"),
+      name: "XinFin Network",
+      symbol: "XDC",
+      address: "xdcc039850F937C623024DA66D6dF370022E6F16e30",
+      decimals: 18,
+    },
+    address: "xdcb50557db49b3A4FaB063a3E53687696d1a92704F",
+  },
+  {
+    first: {
+      logo: getAssetLogo("srx"),
+      name: "StorX Network",
+      symbol: "SRX",
+      address: "xdc55e574e7d0256ff50f86ee8cd90e4a8e22aa1f85",
+      decimals: 18,
+    },
+    second: {
+      logo: getAssetLogo("gbex"),
+      name: "Globiance Network",
+      symbol: "GBEX",
+      address: "xdc2049552f4f55b8af48c86ed9866a66e7d2bcd0fc",
+      decimals: 18,
+    },
+    address: "xdc5847b719d039F53b464e7B09d71eb5DB0a766deF",
+  },
+];
 
 module.exports = {
   DEFAULT_TOKEN_LIST,
