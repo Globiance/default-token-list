@@ -14,7 +14,7 @@ const DEFAULT_TOKEN_LIST = [
   {
     logo: getAssetLogo("srx"),
     name: "StorX Network",
-    symbol: "SRX",
+    symbol: "TSRX",
     address: "xdc55e574e7d0256ff50f86ee8cd90e4a8e22aa1f85",
     decimals: 18,
   },
@@ -147,13 +147,13 @@ const DEFAULT_POOL_LIST = [
       address: "xdcb128a44f005cbe7ddaeb1860c16821842895ec7a",
       decimals: 18,
     },
-    address: "xdc5847b719d039F53b464e7B09d71eb5DB0a766deF",
+    address: "xdc8CDc4592C046a9A8596698dDE629117D2eb610dE",
   },
   {
     first: {
       logo: getAssetLogo("srx"),
       name: "StorX Network",
-      symbol: "SRX",
+      symbol: "TSRX",
       address: "xdc55e574e7d0256ff50f86ee8cd90e4a8e22aa1f85",
       decimals: 18,
     },
@@ -170,7 +170,7 @@ const DEFAULT_POOL_LIST = [
     first: {
       logo: getAssetLogo("srx"),
       name: "StorX Network",
-      symbol: "SRX",
+      symbol: "TSRX",
       address: "xdc55e574e7d0256ff50f86ee8cd90e4a8e22aa1f85",
       decimals: 18,
     },
