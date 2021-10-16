@@ -31,6 +31,7 @@ const DEFAULT_TOKEN_LIST = [
     symbol: "GBEX",
     address: "xdc2049552f4f55b8af48c86ed9866a66e7d2bcd0fc",
     decimals: 18,
+    feeOnTransfer: true,
   },
   {
     logo: getAssetLogo("eurg"),
@@ -97,6 +98,7 @@ const COMMON_BASES = [
     symbol: "GBEX",
     address: "xdc2049552f4f55b8af48c86ed9866a66e7d2bcd0fc",
     decimals: 18,
+    feeOnTransfer: true,
   },
   {
     logo: getAssetLogo("eurg"),
@@ -122,6 +124,7 @@ const DEFAULT_POOL_LIST = [
       symbol: "GBEX",
       address: "xdc2049552f4f55b8af48c86ed9866a66e7d2bcd0fc",
       decimals: 18,
+      feeOnTransfer: true,
     },
     second: {
       logo: getAssetLogo("xdc"),
@@ -139,6 +142,7 @@ const DEFAULT_POOL_LIST = [
       symbol: "GBEX",
       address: "xdc2049552f4f55b8af48c86ed9866a66e7d2bcd0fc",
       decimals: 18,
+      feeOnTransfer: true,
     },
     second: {
       logo: getAssetLogo("eurg"),
@@ -180,6 +184,7 @@ const DEFAULT_POOL_LIST = [
       symbol: "GBEX",
       address: "xdc2049552f4f55b8af48c86ed9866a66e7d2bcd0fc",
       decimals: 18,
+      feeOnTransfer: true,
     },
     address: "xdc5847b719d039F53b464e7B09d71eb5DB0a766deF",
   },

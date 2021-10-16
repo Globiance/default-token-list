@@ -4,6 +4,7 @@ export interface Token {
   symbol: string;
   address: string;
   decimals: number;
+  feeOnTransfer?: boolean;
 }
 
 export const DEFAULT_TOKEN_LIST: Array<Token>
