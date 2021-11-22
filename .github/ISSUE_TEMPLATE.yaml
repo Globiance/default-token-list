@@ -3,7 +3,7 @@ description: Submit a request to list new token
 title: "[Token Listing]: "
 labels: ["token-listing"]
 assignees:
-  - rudresh97
+  - rudreshsolanki97
 body:
   - type: markdown
     attributes:
