@@ -1,0 +1,67 @@
+name: Token Listing
+description: Submit a request to list new token
+title: "[Token Listing]: "
+labels: ["token-listing"]
+assignees:
+  - rudresh97
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for listing a token with Globiance DEX. Please fillout the form below.
+  - type: input
+    id: tokenName
+    attributes:
+      label: Token Name
+      description: Name of the XRC20 token to list
+      placeholder: ex. Globiance Exchange Token
+    validations:
+      required: true
+  - type: input
+    id: tokenSymbol
+    attributes:
+      label: Token Symbol
+      description: Symbol of the XRC20 token to list
+      placeholder: ex. GBEX
+    validations:
+      required: true
+  - type: input
+    id: tokenAddress
+    attributes:
+      label: Token Address
+      description: Address of the XRC20 token to list
+      placeholder: ex. xdc34514748f86a8da01ef082306b6d6e738f777f5a
+    validations:
+      required: true
+  - type: input
+    id: tokenDecimals
+    attributes:
+      label: Token Decimals
+      description: Decimals of the XRC20 token to list
+      placeholder: ex. 18
+    validations:
+      required: true
+  - type: dropdown
+    id: feeOnTransfer
+    attributes:
+      label: Has Fee On Transfer
+      description: Does the token charge a fee / tax on its transfer ?
+      options:
+        - 'Yes'
+        - 'No'
+    validations:
+      required: true
+  - type: input
+    id: logoLink
+    attributes:
+      label: Token Logo link
+      description: Please enter link to the logo of the token in PNG format & dimensions of 50x50 px
+    validations:
+      required: true
+  - type: textarea
+    id: otherDetails
+    attributes:
+      label: Other Details
+      description: please mention any other details here=
+    validations:
+      required: false
