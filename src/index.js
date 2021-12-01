@@ -108,10 +108,10 @@ const COMMON_BASES = [
     decimals: 18,
   },
   {
-    logo: getAssetLogo("sgdg"),
-    name: "SGD Stablecoin",
-    symbol: "SGDG",
-    address: "xdcd14ef8829e8bcb2c71d1b75fa6b1915680f089ed",
+    logo: getAssetLogo("usdg"),
+    name: "USD Stablecoin",
+    symbol: "USDG",
+    address: "xdc7bd4983e237f351f2c94006097b2718403ff740f",
     decimals: 18,
   },
 ];
