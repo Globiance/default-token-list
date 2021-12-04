@@ -1,0 +1,7 @@
+{
+  "name": "Globiance Exchange Token",
+  "symbol": "GBEX",
+  "address": "xdc34514748f86a8da01ef082306b6d6e738f777f5a",
+  "decimals": 6,
+  "feeOnTransfer": true
+}
