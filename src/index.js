@@ -72,8 +72,6 @@ const COMMON_BASES = [...getAllBases()];
 
 const DEFAULT_POOL_LIST = [...getAllPools()];
 
-console.log(DEFAULT_POOL_LIST);
-
 module.exports = {
   DEFAULT_TOKEN_LIST,
   COMMON_BASES,
