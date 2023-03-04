@@ -1,6 +1,6 @@
 {
   "name": "@globiance/default-token-list",
-  "version": "2.0.25",
+  "version": "2.0.26",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -13,7 +13,8 @@
     "url": "git+https://github.com/Globiance/default-token-list.git"
   },
   "scripts": {
-    "compile": "node scripts/compile.js"
+    "compile": "node scripts/compile.js",
+    "publish-patch": "npm version patch --git-tag-version false && npm run compile && npm publish"
   },
   "keywords": [
     "globiance",
